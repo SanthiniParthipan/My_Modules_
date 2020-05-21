@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Module">
+
+    <TextView
+        android:id="@+id/textViewModuleCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ModuleCode" />
+
+    <TextView
+        android:id="@+id/textViewMoculeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Module Name" />
+
+    <TextView
+        android:id="@+id/textViewAcademicYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Academic Year" />
+
+    <TextView
+        android:id="@+id/textViewSemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester" />
+
+    <TextView
+        android:id="@+id/textViewModuleCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Module Credit" />
+
+    <TextView
+        android:id="@+id/textViewVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venue" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+</LinearLayout>
